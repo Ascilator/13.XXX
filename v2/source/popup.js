@@ -30,6 +30,10 @@ jQuery(function () {
 	        scrollTop: $("html").offset().top
 	    }, 1000);
 	});
+	$('#popup_btn').css({
+		'height':'36px',
+		'transform':'translate(0)'
+	});
 	function my_clock_2(argument) {
 		var hours 	= $('#COUNTDOWN_ITEM219>.ladi-countdown-text>span').text();
 			minutes = $('#COUNTDOWN_ITEM220>.ladi-countdown-text>span').text();
